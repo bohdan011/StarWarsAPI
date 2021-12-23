@@ -1,0 +1,51 @@
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.container {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.btn {
+	padding: 20px 20px;
+	font-size: 30px;
+	background-color: #454b47;
+	color: #fff;
+	border: 1px solid #2f2f2f;
+	border-radius: 11px;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	transition: all 0.3s;
+	margin-bottom: 50px;
+}
+
+.btn:hover {
+	background-color: #2f2f2f;
+}
+
+.heroes-block {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.heroes-item {
+	flex-basis: 17%;
+	background-color: #163447;
+	border: 1px solid rgb(0, 27, 270, 0.5);
+	border-radius: 13px;
+	margin-bottom: 20px;
+	transition: all 0.3s;
+}
+.heroes-item:hover {
+	background-color: #2f2f2f;
+}
+
+.heroes-item__text {
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	color: #fff;
+}
